@@ -31,10 +31,10 @@ const Navbar = () => {
             <div className="hr h-9 bg-white left-3 top-1 relative" style={{ width: "2px" }}></div>
           </div>
           <div className="menu-tab w-10/12 p-2 flex max-[768px]:hidden text-center flex-wrap relative">
-            <Link className='pl-4 max-[768px]:hidden'><h1 className='text-cyan-400'>Home</h1>
+            <Link to={"/"} className='pl-4 max-[768px]:hidden'><h1 className='text-cyan-400'>Home</h1>
             
             </Link>
-            <Link className='pl-4 max-[768px]:hidden '><h1>mobile phone</h1>
+            <Link to={"/mobile"} className='pl-4 max-[768px]:hidden '><h1>mobile phone</h1>
             <div className="home-c hidden">
               <ul>
                 <li>iphone</li>
