@@ -57,3 +57,21 @@ button {
 
   flex-wrap: wrap;
 }
+.mob:hover .home-c{
+  display: block;
+ 
+}
+.heightlight{
+width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+ 
+  grid-template-columns: 1fr 1fr;
+}
+.heightlight img{
+  width: 50%;
+  margin: 10px;
+  width: 400px;
+  height: 200px;
+}

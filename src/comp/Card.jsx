@@ -5,10 +5,10 @@ const Card = ({title,price,oldprice,image}) => {
 
     return (
         <>
-            <div style={{ height: "340px"}} className="card border m-2  rounded overflow-hidden shadow-md w-64 bg-grey-600">
-                <img src={image} alt="Product Image" className="w-full h-40" />
+            <div style={{ height: "340px"}} className="card border m-2  rounded overflow-hidden shadow-md bg-grey-600">
+                <img src={image} alt="Product Image" className="w-full h-44" />
                 <div className="card-content p-4">
-                    <div className="card-title text-lg font-bold mb-2 overflow-ellipsis overflow-hidden h-12">{title}</div>
+                    <div className="card-title text-lg font-bold mb-2 overflow-ellipsis overflow-hidden h-5">{title}</div>
                     <div className="card-review mb-1">★★★★☆</div>
                   <div className="price flex">
                   <div className="price text-green-500 text-lg mb-1"><i class="fa-solid fa-indian-rupee-sign"></i>{price}</div>

@@ -1,6 +1,19 @@
-.image-container {
-  width: 80%;
-display: flex;
-justify-content: center;
+@media  screen and ( max-width:"768px") {
+  
+  .card{
+    width: 50%;
+  }
+}
+.card{
+  width: 250px;
+  display: inline-block;
+}
+.topdeals {
 
+  justify-content: center;
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: thin; /* Firefox */
+  -ms-overflow-style: none;
 }

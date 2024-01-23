@@ -10,9 +10,11 @@ import Footer from './Footer'
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import HeightLi from './HeightLi'
+import Top from './Top'
 
 const Home = () => {
- 
+
     const settings = {
         dots: true,
         infinite: true,
@@ -56,8 +58,8 @@ const Home = () => {
                 <img src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1703156673/Croma%20Assets/CMS/LP%20Page%20Banners/2023/More%20For%20Your%20Money/December/UPI%2C%20GST%2C%20Paytm%2C%20ZipCare%20Bank%20strip/ZipCare%20-%2028%20Nov%202023/ZipCare%201%20-%20EW/D_Zipcare_EW_21Dec23_cwfvid.png?tr=w-720" className=' p-2 w-5/12 max-[768px]:w-full' alt="" />
             </div>
             {/*Today top deals  */}
-            <h1 className='text-center text-3xl pl-12' style={{ fontFamily: "serif" }}>Top Trending Deals</h1>
-            <div className="topdeals flex justify-center flex-wrap">
+            <h1 className='text-center text-3xl pl-12'>Top Trending Deals</h1>
+            <div className="topdeals">
 
                 <Card
                     title="Apple iPad 9th Generation Wi-Fi (10.2 Inch, 64GB, Space Grey, 2021 model)"
@@ -80,20 +82,22 @@ const Home = () => {
                     title={"Nothing Ear 2 TWS Earbuds with Active Noise Cancellation (IP54 Water Resistant, Fast Charging, White)"}
                     price={"7,999.00"}
                     oldprice={"12,999.00"} />
+                <Card
+                    image={"https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701788614/Croma%20Assets/Communication/Mobiles/Images/303173_y0fqxb.png?tr=w-360"}
+                    title={"Redmi 13C 5G (8GB RAM, 256GB, Starlight Black)"}
+                    price={"14,499.00"}
+                    oldprice={"17,999.00"} />
 
-</div>
-<div className=" image-container ">
-<div class="flex w-full">
+            </div>
+            <br />
+            <h1 className='text-center mb-7 text-4xl pl-12' >Heightlight</h1>
+            {/* heighlight--- */}
+            <HeightLi/>
+            <br />
+    {/* best seling deals */}
+    <h1 className='text-center mb-7 text-4xl pl-12' >Best seling deals</h1>
+<Top/>
 
-<img  className='w-6/12'src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1668170086/Croma%20Assets/CMS/HP_Highlights_E-Waste_11Nov2022_2_z19bgl.png?tr=w-480" alt="Image 1"/>
-<img className='w-6/12' src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1691126309/Croma%20Assets/CMS/LP%20Page%20Banners/2023/Deals%20Corner/HP_Highlight_DOTW_2Aug2023_2_mdna8l.jpg?tr=w-480" alt="Image 2"/>
-<img  className='w-6/12'src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1683800225/Croma%20Assets/CMS/LP%20Page%20Banners/2023/01_HP_BUGS_LP_BUGS/HP%20Bugs/HP_Highlights_EMIStore_22Feb2023_qvegoj.jpg?tr=w-720" alt="Image 3"/>
-<img className='w-6/12' src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701181979/Croma%20Assets/CMS/LP%20Page%20Banners/2023/Gifting%20Catalogue/29-11-2023/HP%20Highlights/HP_Highlights_WeddingAppliances_27Nov23_wc2qhh.jpg?tr=w-720" alt="Image 4"/>
-<img className='w-6/12' src="https://media-ik.croma.com/prod/https://media.croma.com/image/upload/v1701503911/Croma%20Assets/CMS/Homepage%20Banners/Highlights/2023/02-12-2023/Croma_banner1_sleex7.png?tr=w-720" alt="Image 5"/>
-
-</div>
-</div>
-           
             <Footer />
         </>
 
