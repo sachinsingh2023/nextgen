@@ -93,7 +93,7 @@ const Home = () => {
 
             </div>
             <div className="banner1 w- full">
-                              <img src="https://cdn4.singleinterface.com/files/enterprise/coverphoto/206309/FOE-Microsite-Banner-06-10-2023-06-10-23-06-01-59.jpg" className='w-full max-h-72' alt="" />
+                <img src="https://cdn4.singleinterface.com/files/enterprise/coverphoto/206309/FOE-Microsite-Banner-06-10-2023-06-10-23-06-01-59.jpg" className='w-full max-h-72' alt="" />
             </div>
             <br />
             <h1 className='text-center mb-7 text-4xl pl-12' >Heightlight</h1>
@@ -106,7 +106,7 @@ const Home = () => {
             <br /><br />
             <div className="banner1 w- full">
                 <img src={Banner} className='w-full max-h-72' alt="" />
-              
+
             </div>
             <h1 className='text-center text-3xl pl-12'>Top Trending Deals</h1>
             <div className="topdeals">
@@ -172,9 +172,9 @@ const Home = () => {
             {/* crousel----last */}
             <div className="banner1 w- full">
                 <img src="https://admin.oxygendigitalshop.com/pub/media/cache/1920x0/2024/JAN/T2/Vivo_Web%20banner-10_1704280635.webp" className='w-full max-h-72' alt="" />
-              
+
             </div>
-           
+
             <Footer />
         </>
 

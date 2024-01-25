@@ -17,3 +17,6 @@
   scrollbar-width: thin; /* Firefox */
   -ms-overflow-style: none;
 }
+.topdeals::-webkit-scrollbar {
+  display: none;
+}
